@@ -21,6 +21,8 @@
     background-color:antiquewhite ;
 }
 .container div{
+    text-align: end;
+    align-content: end;
     border: 1px dashed gray;
 
 }

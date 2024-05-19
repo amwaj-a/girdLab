@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+.container{
+    font-size: 4rem;
+    font-weight: 600;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "item13 item13 item9 item9 item18 item1 item1 item20 item20 item15"
+    "item13 item13  item5 item6 item6 item1 item1 item11 item3 item3" 
+    "item22 item22 item5 item6 item6 item8 item8 item11 item3 item3"
+    "item7 item16 item16 item2 item2 item19 item14 item14 item21 item21"
+    "item24 item24 item17 item2 item2 item4 item4 item23 item21 item21"
+    "item24 item24 item17 item12 item12 item4 item4 item23 item10 item10";
+    
+  
+
+    /* grid-template-columns:1fr 1fr 1fr 1fr; */
+    background-color:antiquewhite ;
+}
+.container div{
+    border: 1px dashed gray;
+
+}
+
+.item22{
+    background-color: rgb(245, 233, 169);
+    grid-area: item22;
+
+} 
+.item13{
+    background-color: rgb(207   , 220, 190); 
+    grid-area: item13;
+}
+.item9{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item9;
+}
+.item7{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item7;
+}
+.item24{
+    background-color:rgb(202    ,215, 218) ;
+    grid-area: item24;
+}
+.item5{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item5;
+}
+.item16{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item16;
+}
+.item17{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item17;
+}
+.item18{
+    background-color:rgb(202    ,215, 218) ;
+    grid-area: item18;
+}
+
+.item6{
+    background-color:rgb(243    ,218, 200) ;
+    grid-area: item6;
+}
+.item2{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item2;
+}
+.item12{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item12;
+}
+.item1{
+    background-color:rgb(245, 233, 169) ;
+    grid-area: item1;
+}
+.item8{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item8;
+}
+
+.item19{
+    background-color:rgb(243    ,218, 200) ;
+    grid-area: item19;
+}
+
+.item4{
+    background-color: rgb(207   , 220, 190); 
+    grid-area: item4;
+}
+
+
+.item20{
+    background-color:rgb(251, 244, 212) ;
+
+    grid-area: item20;
+}
+.item11{
+    background-color:rgb(202    ,215, 218) ;
+    grid-area: item11;
+}
+.item14{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item14;
+}
+.item23{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item23;
+}
+
+.item15{
+    background-color:rgb(243    ,218, 200) ;
+    grid-area: item15;
+}
+.item3{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item3;
+}
+.item21{
+    background-color:rgb(245, 233, 169) ;
+    grid-area: item21;
+}
+.item10{
+    background-color:rgb(251, 244, 212) ;
+    grid-area: item10;
+}
